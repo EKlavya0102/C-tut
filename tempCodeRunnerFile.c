@@ -1,29 +1,21 @@
 #include <stdio.h>
-#include <math.h>
+void main()
+{
+    int a, b;
 
-int main (){
-    int i,n, isprime =1;
+    printf("Enter the number to be checked: ");
+    scanf("%d", &a);
+    b = a % 2;
 
-    printf("Enter the number : ");
-    scanf("%d", &n);
+    printf("%d\n", b == 0);
 
-    if ( n<=1){
-        printf("NOT PRIME NUMBER \n");
-        return 0;
-    }
+    if (b == 0)
+    {
 
-    for (i=2;i<=sqrt(n);i++){
-        if(n%i==0){
-            isprime= 0;
-            break;
-        }
+        printf("The number is divisibnle by 2\n");
     }
-    if(isprime){
-        printf("PRIME NUMBER !! \n");
+    else
+    {
+        printf("The number is not divisible by two\n");
     }
-    else{
-        printf("NOT PRIME NUMBER !! \n");
-    }
-    return 0;
 }
-

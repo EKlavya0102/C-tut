@@ -7,7 +7,7 @@ int main()
     printf("Enter row and column(r c): ");
     scanf("%d %d", &r, &c);
 
-    int Matrix1[r][c];
+    int Matrix1[r][c];k
     int Matrix2[r][c];
     int Result[r][c];
 

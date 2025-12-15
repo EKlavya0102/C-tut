@@ -95,7 +95,7 @@ for(int i=0;i<n;i++){
 }
 printf("There are %d ODD numbers in this array ! \n", count);
 
-}
+}+
 
 */
 

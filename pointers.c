@@ -13,7 +13,7 @@
 //     // printf("%p\n", ptr );
 //     printf("%u\n", ptr);
 
-//     // printing the value
+//     // printing the value 
 //     printf("%d \n", age);
 //     printf("%d\n", *ptr);
 //     printf("%d\n", *(&age));

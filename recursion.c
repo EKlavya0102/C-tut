@@ -1,23 +1,23 @@
 // print hello world n times through recursion 
 #include <stdio.h>
+void printHW(int n);   // function prototype
 
-void printHW(int n); // function prototype
-
+//calling function
 int main()
 {
-    printHW(5);  //function call with argument 
+    printHW(5);  
     return 0;
 }
 
-// recursive function defination 
+//defining function 
 void printHW(int n)
 {
-    if (n == 0)   //3. if n becomes 0 return nothing means stop 
+    if (n == 0)    
     {
         return;
     }
 
-    printf("Hello world !! \n");  //1. print hello world 
-    printHW(n - 1);  // 2. calling itself and printing hello world n-1 times as already printed 1 time above 
+    printf("Hello world !! \n");  
+    printHW(n - 1); 
 }
 
